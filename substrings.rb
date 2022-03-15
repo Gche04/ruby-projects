@@ -8,3 +8,6 @@ def substrings(string, dictionary)
         key
     end
 end
+
+dic = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit", "y"]
+puts substrings("Howdy partnery, sit down! How's y it going? y" , dic)
